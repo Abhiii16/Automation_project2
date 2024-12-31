@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-12-30T16:22:20 IST" name="Default suite" finished-at="2024-12-30T16:22:48 IST" duration-ms="27332">
+    <groups>
+    </groups>
+    <test started-at="2024-12-30T16:22:20 IST" name="Default test" finished-at="2024-12-30T16:22:48 IST" duration-ms="27332">
+      <class name="testngvalidationprogram.dataprovider_demo">
+        <test-method signature="testvalidation(java.lang.String,java.lang.String)[pri:0, instance:testngvalidationprogram.dataprovider_demo@4310d43]" started-at="2024-12-30T16:22:20 IST" name="testvalidation" data-provider="login_Data" finished-at="2024-12-30T16:22:27 IST" duration-ms="6368" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testvalidation -->
+        <test-method signature="testvalidation(java.lang.String,java.lang.String)[pri:0, instance:testngvalidationprogram.dataprovider_demo@4310d43]" started-at="2024-12-30T16:22:27 IST" name="testvalidation" data-provider="login_Data" finished-at="2024-12-30T16:22:31 IST" duration-ms="4820" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin121]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[passwpord123345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testvalidation -->
+        <test-method signature="testvalidation(java.lang.String,java.lang.String)[pri:0, instance:testngvalidationprogram.dataprovider_demo@4310d43]" started-at="2024-12-30T16:22:31 IST" name="testvalidation" data-provider="login_Data" finished-at="2024-12-30T16:22:39 IST" duration-ms="7229" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[###]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[&@@*]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testvalidation -->
+        <test-method signature="testvalidation(java.lang.String,java.lang.String)[pri:0, instance:testngvalidationprogram.dataprovider_demo@4310d43]" started-at="2024-12-30T16:22:39 IST" name="testvalidation" data-provider="login_Data" finished-at="2024-12-30T16:22:48 IST" duration-ms="8847" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[   ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[  ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testvalidation -->
+      </class> <!-- testngvalidationprogram.dataprovider_demo -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
